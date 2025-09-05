@@ -1,12 +1,64 @@
-# React + Vite
+📱 Cooee – Virtual Number Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cooee is a React-based web application that allows users to buy and activate virtual mobile numbers across multiple countries without a physical SIM.
+The platform offers a smooth step-by-step workflow for selecting numbers, choosing plans, registering user details, making payments, and activating the service.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌍 Country & Number Selection – Choose from multiple countries with mock numbers.
 
-## Expanding the ESLint configuration
+💳 Plan Selection – Pick between Basic and Premium subscription plans.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📝 User Registration – Register with name, email, password, and optional address.
+
+🔐 Payment Flow – Enter payment details and confirm securely.
+
+✅ Activation – Get confirmation with your assigned number.
+
+🌗 Dark/Light Mode toggle for better accessibility.
+
+📊 Step Workflow Tracker – Displays progress for each step (Number → Plan → Registration → Payment → Confirmation).
+
+🎨 Modern UI – Background images, smooth transitions, and responsive design.
+
+	
+🛠️ Tech Stack
+
+Frontend: React + Vite
+
+Styling: Tailwind CSS
+
+State Management: React Hooks (useState, useEffect)
+
+UI Effects: Dark mode, blur overlays, animations.
+
+⚡ Installation & Setup
+# Clone the repo
+git clone https://github.com/your-username/cooee.git
+cd cooee
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+Open http://localhost:5173
+ in your browser. 🚀
+
+📌 Future Improvements
+
+Integrate real payment gateway (Stripe/PayPal).
+
+Backend API for user & number management.
+
+Real-time call/SMS simulation.
+
+Multi-language support.
+
+📜 License
+
+MIT License – free to use and modify.
+
+🔥 Cooee – Bringing global communication closer without SIM cards!
