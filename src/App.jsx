@@ -59,7 +59,7 @@ export default function App() {
             className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white text-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-green-400 px-4"
             style={{ fontFamily: "'Poppins', sans-serif", letterSpacing: "1px" }}
           >
-            Welcome to Cooee
+            Welcome to COOEE
           </h1>
         </div>
       </div>
